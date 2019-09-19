@@ -10,6 +10,7 @@ export const OrderBook = memo(({ bids, asks }) => {
     <div className='order' >
       <Column  title="Bids" data={bids} />
       <Column title="Asks" data={asks} />
+      
     </div>
   )
 });
