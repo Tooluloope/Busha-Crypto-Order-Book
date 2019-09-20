@@ -10,12 +10,12 @@ const WebSockets = (url, Component) =>
       }
     }
 
-    componentWillMount () {
+    UNSAFE_componentWillMount () {
       this.socket = new WebSocket(url);
       this.socket.onopen = () => this.setState({ socket: this.socket });
     }
 
-    componentWillUnmout () {
+    componentWillUnmount () {
       this.socket.close();
     }
 
