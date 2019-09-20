@@ -1,3 +1,7 @@
+A realtime Crypto order book. 
+Used websockets to keep the connection between the client and server open.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
