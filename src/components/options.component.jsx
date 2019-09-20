@@ -11,7 +11,7 @@ const Options = React.memo(({currencyPairs, onSelect}) => {
 
     return(   
         <div className='select'>
-            <select onChange={handleChange} className=''>
+            <select  onChange={handleChange} className=''>
                 <option selected disabled value={null}>Choose an Option</option>
                     {currencyPairs.sort(sortPair).map(
                         ({ id, name }) => <option key={id} value={id}>{name}</option>

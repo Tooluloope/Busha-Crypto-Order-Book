@@ -5,7 +5,7 @@ export const Column = ({ data, title }) => (
     <div>
        
 
-<table class="table">
+<table className="table">
   <thead>
     <tr>
       
@@ -15,6 +15,7 @@ export const Column = ({ data, title }) => (
   </thead>
   <tbody>
     {data.map(values => (
+      
       <tr>
         <td>{values[0]}</td>
         <td>{values[1]}</td>
